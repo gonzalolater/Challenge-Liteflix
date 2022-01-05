@@ -4,7 +4,7 @@ import './styles/Home.css'
 
 const Home = () => {
     return (
-        <div className='fondo'>
+        <div className='home'>
             <img src={fondo} alt=''/>
         </div>
     )

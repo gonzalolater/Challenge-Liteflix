@@ -1,5 +1,5 @@
 .NavbarItems {
-    background: linear-gradient(90deg, #542454 0%, #913660 100%);
+    background: linear-gradient(90deg, #64EEBC 0%, #4D6B60 100%);
     height: 80px;
     display: flex;
     justify-content: center;
@@ -8,13 +8,14 @@
 }
 
 .navbar-logo {
-    color: #fff;
+    color: rgb(255, 255, 255);
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
 }
 
 .fa-cat {
+    color: rgb(26, 1, 1);
     margin-left: 0.5rem;
     font-size: 1.6rem;
 }
@@ -37,7 +38,7 @@
 }
 
 .nav-links:hover {
-    background-color: #c7595f;
+    background-color: #4DB891;
     border-radius: 4px;
     transition: all 0.2 ease-out;
 }
@@ -65,29 +66,36 @@
         width: 100%;
         height: 500px;
         position: absolute;
-        top: 80px;
+        top: 60px;
         left: -100%;
         opacity: 1;
         transition: all 0.5s ease;
     }
 
     .nav-menu.active {
-        background: linear-gradient(90deg,#913660,#c7595f 100%);
+        background: linear-gradient(90deg, #64EEBC 0%, #4D6B60 100%);
         left: 0;
-        opacity: 1;
+        opacity: 0.8;
         transition: all 0.5s ease;
     }
     .nav-links {
+        display: block;
         text-align: center;
-        padding: 2rem;
-        width: 100%;
+        padding: 1.5rem;
+        margin: auto;
+        border-radius: 4px;
+        width: 80%;
         display: table;
         color: black;
+        font-size: 1.5rem;
+        color: #fff;
+        
     }
 
     .nav-links:hover {
-        background: linear-gradient(90deg,#c7595f,#ec8759 100%);
-        border-radius: 0;
+        background: #fff;
+        color: black;
+        transition: 250ms;
     }
 
     .navbar-logo {
@@ -116,10 +124,9 @@
         display: block;
         text-align: center;
         padding: 1.5rem;
-        margin: 2rem auto;
+        margin: auto;
         border-radius: 4px;
         width: 80%;
-        background: linear-gradient(90deg,#febd59,#f9f871 100%);
         text-decoration: none;
         color: #fff;
         font-size: 1.5rem;

@@ -4,26 +4,26 @@ export const MenuItems = [
         url: '/',
         cName: 'nav-links'
     },
+    
     {
-        title: 'Perfil',
-        url: '/perfil',
-        cName: 'nav-links'
-    },
-
-    {
-        title: 'Casilla de Mensajes',
-        url: '/casillademensajes',
+        title: 'AGREGAR PELICULA',
+        url: '/agregarpelicula',
         cName: 'nav-links'
     },
     {
         title: 'MenuDropdown', 
-        url: '#',
+        url: '/menudropdown',
         cName: 'nav-links'
     
     },
     {
-        title: 'Sign up',
+        title: 'Campana',
         url: '#',
         cName: 'nav-links-mobile'
+    },
+    {
+        title: 'icono cara',
+        url: '/',
+        cName: 'nav-links'
     }
 ]

@@ -1,6 +1,6 @@
 export const MenuItems = [
   {
-    title: "Casilla de Mensajes",
+    title: "Notificaciones",
     url: "/CasillaDeMensajes",
     cName: "nav-links",
   },

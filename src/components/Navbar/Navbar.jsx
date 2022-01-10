@@ -30,7 +30,7 @@ class Navbar extends Component {
             LITE<i className="fas fa-cat"></i> FLIX{" "}
           </Link>
         </h1>
-        <Box ml={5} mt={2}>
+        <Box ml={5} mt={2} mb={2}>
           <SmallButton startIcon={<Add />}>AGREGAR PELICULA</SmallButton>
         </Box>
         <div className="menu-icon" onClick={this.handleClick}>
@@ -62,7 +62,9 @@ class Navbar extends Component {
         </Box>
         <Box mt={2} ml={-4} mr={2} mb={2}>
           <Button>
+            
             <i class="fas fa-address-card"></i>
+            
           </Button>
         </Box>
       </nav>

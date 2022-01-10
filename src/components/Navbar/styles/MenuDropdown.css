@@ -1,8 +1,10 @@
 .botonDropdown{
-    background-color: #0c0b0a !important;
+    background-color: #4D6B60!important;
     border-color: black !important;
+    text-align: center;
 }
 .botonMenu{
-    background-color: #c7595f !important;
+    background-color: #64EEBC !important;
     border-color: #FEBD59 !important;
+    text-align: center;
 }

@@ -11,6 +11,7 @@ function App() {
   return (
     <div className="App">
       <Router>
+          {/* MENULOGIN */}
         <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />

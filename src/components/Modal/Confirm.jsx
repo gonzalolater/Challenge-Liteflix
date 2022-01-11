@@ -13,7 +13,7 @@ import {
   Grid,
 } from "@material-ui/core";
 import { Close } from "@material-ui/icons";
-import { childrenPropType } from "../../common";
+import { childrenPropType } from "../common/index";
 
 const useStyles = makeStyles((theme) => ({
   content: { color: "#000000", fontSize: 12 },

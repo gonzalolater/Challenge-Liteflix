@@ -54,7 +54,9 @@ export default class Home extends React.Component {
                   <Grid container wrap="nowrap">
                     <Box mt={62} ml={-40}>
                       <Grid item xs>
+                        <a href="https://www.netflix.com/watch/81012314?trackId=13752289">
                         <Button>REPRODUCIR</Button>
+                        </a>
                       </Grid>
                     </Box>
                     <Box mt={62} ml={2}>

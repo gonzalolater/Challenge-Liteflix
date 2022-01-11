@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 import { Box } from "@material-ui/core";
-import { Add } from "@material-ui/icons";
 import { Link } from "react-router-dom";
 import { MenuItems } from "./MenuItem";
 import { Button } from "./Button";
-import SmallButton from "./SmallButton";
 import "../Navbar/styles/Navbar.css";
+import BasicModal from "../Modal/BasicModal";
 
 class Navbar extends Component {
   state = { clicked: false };
@@ -31,7 +30,7 @@ class Navbar extends Component {
           </Link>
         </h1>
         <Box ml={5} mt={2} mb={2}>
-          <SmallButton startIcon={<Add />}>AGREGAR PELICULA</SmallButton>
+          <BasicModal/>
         </Box>
         <div className="menu-icon" onClick={this.handleClick}>
           <i
@@ -62,9 +61,9 @@ class Navbar extends Component {
         </Box>
         <Box mt={2} ml={-4} mr={2} mb={2}>
           <Link to={"/login"}>
-          <Button>
-            <i class="fas fa-address-card"></i>
-          </Button>
+            <Button>
+              <i class="fas fa-address-card"></i>
+            </Button>
           </Link>
         </Box>
       </nav>

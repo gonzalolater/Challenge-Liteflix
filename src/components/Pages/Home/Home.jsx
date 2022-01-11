@@ -26,7 +26,7 @@ export default class Home extends React.Component {
         <div className="cComponent" style={divStyle}>
           {/* ----------------------------------------------------------------- */}
           <Box mt={2}>
-              <Grid container spacing={3}>
+            <Grid container spacing={3}>
               <Grid item xs={10}></Grid>
               <Grid item xs={2} align="center">
                 <MenuDropdown />
@@ -74,10 +74,10 @@ export default class Home extends React.Component {
                 VER: POPULARES <i class="fas fa-angle-down"></i>{" "}
               </h2>
               <div class="img-container">
-                <img src={houseofcards} alt="" />
-                <img src={marseille} alt="" />
-                <img src={strangerthings} alt="" />
-                <img src={thecrown} alt="" />
+                <img src={houseofcards} alt="House Of Cards" />
+                <img src={marseille} alt="Marseille" />
+                <img src={strangerthings} alt="Stranger Things" />
+                <img src={thecrown} alt="The Crown" />
               </div>
             </Grid>
             <Grid item xs={3}>

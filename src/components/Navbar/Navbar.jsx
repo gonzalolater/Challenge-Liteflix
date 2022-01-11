@@ -38,7 +38,7 @@ class Navbar extends Component {
             className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
           ></i>
         </div>
-      
+
         <Box
           mt={2}
           display="flex"
@@ -61,11 +61,11 @@ class Navbar extends Component {
           </ul>
         </Box>
         <Box mt={2} ml={-4} mr={2} mb={2}>
+          <Link to={"/login"}>
           <Button>
-            
             <i class="fas fa-address-card"></i>
-            
           </Button>
+          </Link>
         </Box>
       </nav>
     );

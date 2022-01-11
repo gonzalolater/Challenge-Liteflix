@@ -4,15 +4,16 @@ import Navbar from './components/Navbar/Navbar'
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import CasillaDeMensajes from './components/Pages/CasillaMensajes/CasillaDeMensajes';
 
+
 function App() {
   return (
     <div className="App">
       <Router>
         <Navbar />
         <Switch>
-          <Route exact path="/" component={Home}></Route>
-          <Route exact path="/casillademensajes" component={CasillaDeMensajes}
-          ></Route>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/casillademensajes"component={CasillaDeMensajes}/>
+          {/* <Route exact path="/login" component={}/> */}
         </Switch>
       </Router>
     </div>

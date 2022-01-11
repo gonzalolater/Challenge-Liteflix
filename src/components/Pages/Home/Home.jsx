@@ -26,7 +26,7 @@ export default class Home extends React.Component {
         <div className="cComponent" style={divStyle}>
           {/* ----------------------------------------------------------------- */}
           <Box mt={2}>
-            <Grid container spacing={3}>
+              <Grid container spacing={3}>
               <Grid item xs={10}></Grid>
               <Grid item xs={2} align="center">
                 <MenuDropdown />
